@@ -7,6 +7,7 @@ import lombok.Setter;
 
 @Data
 @Builder
+@EqualsAndHashCode
 public class Lance {
 
     private Usuario usuario;
